@@ -1,0 +1,154 @@
+
+// Title Animation
+#main-headline {
+  -moz-animation-name: fadeInUp;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -moz-animation-duration: 1.5s;
+  -moz-animation-fill-mode: forwards;
+
+  -webkit-animation-name: fadeInUp;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-fill-mode: forwards;
+
+  animation-name: fadeInUp;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@-moz-keyframes fadeInUp {
+    0% {-moz-transform: translateY(12%); opacity: 0;}
+    100% {-moz-transform: translateY(00%); opacity: 1;}
+}
+@-webkit-keyframes fadeInUp {
+    0% {-webkit-transform: translateY(12%); opacity: 0;}
+    100% {-webkit-transform: translateY(00%); opacity: 1;}
+}
+@keyframes fadeInUp {
+    0% {transform: translateY(12%); opacity: 0;}
+    100% {transform: translateY(00%); opacity: 1;}
+}
+
+// Browser comes in animation
+.animated-browser {
+  -moz-animation-name: toForeground;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -moz-animation-duration: 777ms;
+  -moz-animation-delay: 2.5s;
+  -moz-animation-fill-mode: forwards;
+
+  -webkit-animation-name: toForeground;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -webkit-animation-duration: 777ms;
+  -moz-animation-delay: 2.5s;
+  -webkit-animation-fill-mode: forwards;
+
+  animation-name: toForeground;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  animation-duration: 777ms;
+  animation-delay: 2.5s;
+  animation-fill-mode: forwards;
+}
+
+
+@-moz-keyframes toForeground {
+    0% {-moz-transform: rotateX(8.1deg) rotateY(-39.69deg) rotateZ(5.9deg) translate3d(-853px, -418px, -1282px) scale(0.688) skew(-8.8deg, -1.89deg); }
+    1%{opacity: 1;}
+    100% {-moz-transform: rotateX(0) rotateY(0) rotateZ(0) translate3d(0, 0, 0) scale(1) skew(0, 0); box-shadow: 0px 3px 15px rgba(0,0,0,0.45);  width: 900px; height: 564px; opacity: 1;}
+}
+@-webkit-keyframes toForeground {
+    0% {-webkit-transform: rotateX(8.1deg) rotateY(-39.69deg) rotateZ(5.9deg) translate3d(-853px, -418px, -1282px) scale(0.688) skew(-8.8deg, -1.89deg); }
+    1%{opacity: 1;}
+    100% {-webkit-transform: rotateX(0) rotateY(0) rotateZ(0) translate3d(0, 0, 0) scale(1) skew(0, 0); box-shadow: 0px 3px 15px rgba(0,0,0,0.45); width: 900px; height: 564px; opacity: 1;}
+}
+@keyframes toForeground {
+    0% {transform: rotateX(8.1deg) rotateY(-39.69deg) rotateZ(5.9deg) translate3d(-853px, -418px, -1282px) scale(0.688) skew(-8.8deg, -1.89deg); }
+    1%{opacity: 1;}
+    100% {transform: rotateX(0) rotateY(0) rotateZ(0) translate3d(0, 0, 0) scale(1) skew(0, 0); box-shadow: 0px 5px 25px rgba(0,0,0,0.65);  width: 900px; height: 564px; opacity: 1;}
+}
+
+
+.animated-fade {
+  -moz-animation-name: fadeInBrowser;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -moz-animation-duration: 500ms;
+  -moz-animation-delay: 1.95s;
+  -moz-animation-fill-mode: forwards;
+
+  -webkit-animation-name: fadeInBrowser;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -webkit-animation-duration: 500ms;
+  -moz-animation-delay: 1.95s;
+  -webkit-animation-fill-mode: forwards;
+
+  animation-name: fadeInBrowser;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  animation-duration: 500ms;
+  animation-delay: 1.95s;
+  animation-fill-mode: forwards;
+}
+
+
+@-moz-keyframes fadeInBrowser {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@-webkit-keyframes fadeInBrowser {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes fadeInBrowser {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
+.animated-logo {
+  -moz-animation-name: browserTransform;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  -moz-animation-duration: 1s;
+  -moz-animation-delay: 1s;
+  -moz-animation-fill-mode: forwards;
+
+  -webkit-animation-name: browserTransform;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  -webkit-animation-duration: 1s;
+  -moz-animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
+
+  animation-name: browserTransform;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+@-moz-keyframes browserTransform {
+    0% {-moz-transform: translateY(50px) translateX(0) scale(0); opacity: 0;}
+    65% {-moz-transform: translateY(0) translateX(0) scale(1); opacity: 1;}
+
+    100% {-moz-transform: translateY(70px) translateX(380px) scale(0); opacity: 1;}
+}
+@-webkit-keyframes browserTransform {
+    0% {-webkit-transform: translateY(50px) translateX(0)  scale(0); opacity: 0;}
+    65% {-webkit-transform: translateY(0) translateX(0) scale(1); opacity: 1;}
+    100% {-webkit-transform: translateY(70px) translateX(380px)  scale(0); opacity: 1;}
+}
+@keyframes browserTransform {
+    0% {transform: translateY(50px) translateX(0)  scale(0); opacity: 0;}
+    65% {transform: translateY(0) translateX(0) scale(1); opacity: 1;}
+    100% {transform: translateY(70px) translateX(380px)  scale(0);  opacity: 1;}
+}
